@@ -1,0 +1,85 @@
+octav@Skynet MINGW64 ~/Documents/Projects/Individuales M2/Ejercicio Individual 7 M2
+$ mkdir fullstackpython
+
+octav@Skynet MINGW64 ~/Documents/Projects/Individuales M2/Ejercicio Individual 7 M2
+$ cd fullstackpython
+
+octav@Skynet MINGW64 ~/Documents/Projects/Individuales M2/Ejercicio Individual 7 M2/fullstackpython
+$ git init
+Initialized empty Git repository in C:/Users/octav/Documents/Projects/Individuales M2/Ejercicio Individual 7 M2/fullstackpython/.git/
+
+octav@Skynet MINGW64 ~/Documents/Projects/Individuales M2/Ejercicio Individual 7 M2/fullstackpython (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+octav@Skynet MINGW64 ~/Documents/Projects/Individuales M2/Ejercicio Individual 7 M2/fullstackpython (master)
+$ echo "Módulo 1: Programación en Python
+Módulo 2: Lenguaje de Consultas a una Base de Datos
+Módulo 3: Fundamentos de Desarrollo Web" > contenidos.txt
+
+octav@Skynet MINGW64 ~/Documents/Projects/Individuales M2/Ejercicio Individual 7 M2/fullstackpython (master)
+$ cat contenidos.txt
+Módulo 1: Programación en Python
+Módulo 2: Lenguaje de Consultas a una Base de Datos
+Módulo 3: Fundamentos de Desarrollo Web
+
+octav@Skynet MINGW64 ~/Documents/Projects/Individuales M2/Ejercicio Individual 7 M2/fullstackpython (master)
+$ ls -l contenidos.txt
+-rw-r--r-- 1 octav 197609 129 Feb 26 23:16 contenidos.txt
+
+octav@Skynet MINGW64 ~/Documents/Projects/Individuales M2/Ejercicio Individual 7 M2/fullstackpython (master)
+$ git add contenidos.txt
+warning: in the working copy of 'contenidos.txt', LF will be replaced by CRLF the next time Git touches it
+
+octav@Skynet MINGW64 ~/Documents/Projects/Individuales M2/Ejercicio Individual 7 M2/fullstackpython (master)
+$ git commit -m "Primera versión del temario subida a repositorio"
+[master (root-commit) 0299fbe] Primera versión del temario subida a repositorio
+ 1 file changed, 3 insertions(+)
+ create mode 100644 contenidos.txt
+
+octav@Skynet MINGW64 ~/Documents/Projects/Individuales M2/Ejercicio Individual 7 M2/fullstackpython (master)
+$ echo "Módulo 2: Desarrollo de aplicaciones web dinámicas con Python" >> contenidos.txt
+
+octav@Skynet MINGW64 ~/Documents/Projects/Individuales M2/Ejercicio Individual 7 M2/fullstackpython (master)
+$ git diff
+warning: in the working copy of 'contenidos.txt', LF will be replaced by CRLF the next time Git touches it
+diff --git a/contenidos.txt b/contenidos.txt
+index 37d92ba..81d5fb1 100644
+--- a/contenidos.txt
++++ b/contenidos.txt
+@@ -1,3 +1,4 @@
+ Módulo 1: Programación en Python
+ Módulo 2: Lenguaje de Consultas a una Base de Datos
+ Módulo 3: Fundamentos de Desarrollo Web
++Módulo 2: Desarrollo de aplicaciones web dinámicas con Python
+
+octav@Skynet MINGW64 ~/Documents/Projects/Individuales M2/Ejercicio Individual 7 M2/fullstackpython (master)
+$ git commit -am "Versión actualizada del contenido"
+warning: in the working copy of 'contenidos.txt', LF will be replaced by CRLF the next time Git touches it
+[master 3997588] Versión actualizada del contenido
+ 1 file changed, 1 insertion(+)
+
+octav@Skynet MINGW64 ~/Documents/Projects/Individuales M2/Ejercicio Individual 7 M2/fullstackpython (master)
+$ git log
+commit 39975880a2ba07826d558ee83c74a4bcac46839e (HEAD -> master)
+Author: Oct <octaviocl32@hotmail.com>
+Date:   Mon Feb 26 23:19:43 2024 -0300
+
+    Versión actualizada del contenido
+
+commit 0299fbed9870326ef326171d20c342abc4566214
+Author: Oct <octaviocl32@hotmail.com>
+Date:   Mon Feb 26 23:17:44 2024 -0300
+
+
+octav@Skynet MINGW64 ~/Documents/Projects/Individuales M2/Ejercicio Individual 7 M2/fullstackpython (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+octav@Skynet MINGW64 ~/Documents/Projects/Individuales M2/Ejercicio Individual 7 M2/fullstackpython (master)
+$

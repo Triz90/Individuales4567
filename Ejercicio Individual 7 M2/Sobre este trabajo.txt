@@ -1,0 +1,1 @@
+El archivo del ejercicio individual 7 fue guardado en un zip despues de finalizar, de tal modo que los archivos git contenidos en este no generen conflictos con el git principal que se encuentra en la carpeta que contiene las carpetas a otros individuales
