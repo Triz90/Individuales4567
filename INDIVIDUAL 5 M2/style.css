@@ -1,0 +1,55 @@
+body {
+	background-image: url("Eugene\ Delacroix.jpg");
+	background-repeat: repeat;
+}
+#fondo{
+	width: 100%;
+	background-color: transparent;
+}
+h1 {
+	font-family: Arial, Verdana, Helvetica;
+}
+
+p {
+	font-family: "Courier New", "Lucida Console", "monaco";
+	font-size: large;
+
+}
+
+h1, p {
+	background-image: linear-gradient(to left, violet, indigo, blue, green, rgb(141, 141, 22), orange, red);  -webkit-background-clip: text;
+	color: transparent;
+	display: inline-block;
+	align-self: center;
+	font-weight: bolder;
+}
+div{
+	background-color: #f8f6f0;
+	margin-top: 0cm;
+	display: inline-block;
+	text-align: center;
+}
+
+.Hola{
+	position: absolute;
+	margin-top: 0%;  
+	border:solid; color: bisque; border-radius: 20px;
+	display: inline;
+	background-color:blanchedalmond;
+	top: 0;
+	right: 20%;
+    left: 20%;
+	padding:0; 
+    margin:auto;
+}
+
+#tiemporestante {
+	position: absolute;
+	border-style: dashed;
+	border-width: 5px;
+	border-color: rgb(19, 19, 18);
+	top: 50vh;
+	right: 0;
+    left: 0;
+    margin:0;
+}
