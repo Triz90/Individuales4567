@@ -1,6 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <style> 
+    .row {background-color: blue;}
+
+    </style>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,117 +14,62 @@
     rel="stylesheet"
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-    crossorigin="anonymous"
->
+    crossorigin="anonymous">
 
     <title>Individual 4-7!</title>
   </head>
   <body>
-    <h1>Hola Coraje!</h1>
-    <p>¿qué buscas?</p>
-    <img src="Coraje.jpg" class="rounded-circle img-fluid"></img>
-    <p>Esquema</p>
-    <div class="d-flex bd-highlight">
-      <div style="background:green" class="p-2 flex-fill bd-highlight">Flex item with a lot of content</div>
-      <div style="background:blue" class="p-2 flex-fill bd-highlight">Flex item</div>
-      <div style="background:red" class="p-2 flex-fill bd-highlight">Flex item</div>
-    </div>
-    <div class="container-fluid">
     
-    <table class="table table-responsive">
-      <thead>
-      <tr>
-      <th>First Name</th>
-      <th class="col-xs">Last Name</th>
-      <th>Email</th>
-      </tr>
-    </thead>
-  <tbody>
-      <tr>
-      <td>John</td>
-      <td>Doe</td>
-      <td>john@example.com</td>
-      </tr>
-      <tr >
-      <td>Smith</td>
-      <td>Thomas</td>
-      <td>smith@example.com</td>
-      </tr>
-      <tr>
-      <td>Merry</td>
-      
-      <td>Jim</td>
-      <td>merry@example.com</td>
-    </tr>
-    </tbody>
-    </table>
-
-      <div class="row">
-        <div style="background:green" class="col-sm">
-          <p>Small column</p>
-        </div>
-
-        <div style="background:blue" class="col-md">
-          <p>Medium size column</p>
-        </div>
-        <div style="background:red" class="col-xs">
-          <p>Extra small column</p>
-        </div>
-        <div style="background:pink" class="col-lg">
-          <p>Large column</p>
-        </div>
-        <div style="background:purple" class="col-xl">
-          <p>Extra large column</p>
-        </div>
-      </div>
-
+    
+    
       <div class="row">
         <div style="background:rgb(225, 247, 103)" class="col-xl">
-          <p>Extra large column</p>
+          <h1>Hola Coraje!</h1>
         </div>
       </div>
 
       <div class="row">
-        <div style="background:blue" class="col-xs">
-          <p>Extra small column</p>
+        <div style="background:blue; min-width: 10%;" class="col-xs">
+          <p style="color: aliceblue; text-align: center;">¿Qué buscas?</p>
         </div>
 
         <div style="background:green" class="col-md">
-          <p></p>Medium size column</p>
+          <img src="Coraje.jpg" class="rounded-circle img-fluid"></img>
+          <table class="table table-dark">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
 
-    <table class="table table-dark">
-      <thead>
-        <tr>
-          <th scope="col">#</th>
-          <th scope="col">First</th>
-          <th scope="col">Last</th>
-          <th scope="col">Handle</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>Mark</td>
-          <td>Otto</td>
-          <td>@mdo</td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>Jacob</td>
-          <td>Thornton</td>
-          <td>@fat</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>Larry</td>
-          <td>the Bird</td>
-          <td>@twitter</td>
-        </tr>
-      </tbody>
-    </table>
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
